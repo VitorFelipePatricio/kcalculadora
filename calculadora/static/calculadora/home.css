@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 1000;
+} 
+
+.container-header {
+    display: table;
+    height: 90px;
+    width: 100%;
+    background-color: #008037;
+}
+
+.container-titulo {
+    display: table-cell;
+    min-height: 10em;
+    vertical-align: middle;
+    padding-left: 3%;
+}
+
+@media(max-width: 500px) {
+    h1{
+        font-size: 13vw;
+    }
+}
