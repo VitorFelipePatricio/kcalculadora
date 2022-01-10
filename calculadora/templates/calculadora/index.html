@@ -25,7 +25,15 @@
     </header>
 
     <main>
-
+        <form method="GET" id='search-form'>
+        
+            <input type="text" id="search" name="search">
+            <button type="submit">buscar</button>
+    
+            {% for alimento in alimentos %}
+                <h3> {{alimento}}</h3>
+            {% endfor %}
+        </form>
     </main>
 
     <footer>
